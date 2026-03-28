@@ -62,6 +62,15 @@ source .venv/bin/activate
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
+
+## Docker (Local Dev)
+```bash
+cd ~/CareerWeb
+docker compose up --build
+```
+
+Frontend: http://localhost:5173  
+Backend: http://localhost:8000
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
